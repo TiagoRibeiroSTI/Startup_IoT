@@ -26,7 +26,7 @@
 /* Background body */
 body {        
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(../images/technology.png);
+    background-image: url(technology.png);
     background-color: #000000;
     background-position-y: 82px;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ label {
     left: 614.5px;
 }
 .wearable a {    
-    background-image: url(../images/wear.png);
+    background-image: url(wear.png);
     background-position-x: -11px;
     background-position-y: -4px;
 }
@@ -305,7 +305,7 @@ label {
     left: 482px;
 }
 .residencial a {
-    background-image: url(../images/house.png);
+    background-image: url(house.png);
     background-size: 208px;
     background-position: -5px;
 }
@@ -315,7 +315,7 @@ label {
     left: 429px;
 } 
 .hospitalar a {
-    background-image: url(../images/hospital.png);
+    background-image: url(hospital.png);
     background-position: -10px;
 }
 
@@ -324,7 +324,7 @@ label {
     left: 483px;
 }
 .energia a {
-    background-image: url(../images/energia.png);
+    background-image: url(energia.png);
     background-size: 272px;
     background-position: -21px;
 }
@@ -334,7 +334,7 @@ label {
     left: 614.5px;
 } 
 .seguranca a {
-    background-image: url(../images/seguranca.png);
+    background-image: url(seguranca.png);
     background-position-x: -16px;
     background-position-y: 5px;
 }
@@ -344,7 +344,7 @@ label {
     left: 746px;
 }
 .urbano a {
-    background-image: url(../images/urbano.png);
+    background-image: url(urbano.png);
     background-size: 214px;
 }
 
@@ -353,7 +353,7 @@ label {
     left: 798px;
 }
 .industria a {
-    background-image: url(../images/industria.png);
+    background-image: url(industria.png);
 }
 
 .pet {
@@ -361,7 +361,7 @@ label {
     left: 746px;
 }
 .pet a {
-    background-image: url(../images/pet.png);
+    background-image: url(pet.png);
     background-position: -32px;
     background-size: 196px;
 }
