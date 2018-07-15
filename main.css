@@ -416,8 +416,14 @@ label {
 }
 
 
-/* Rensponsivo Portrait */
-@media (max-width: 450px) {
+/* Rensponsive Portrait */
+@media (max-width: 600px) {
+
+    body {
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+    }
 
     .portfolio {
         font-size: 32px;
@@ -429,11 +435,22 @@ label {
         display: flex;
         position: absolute;
         background-image: radial-gradient(circle at center, #0072ec, 36%, #fff0);
-        top: 89px;
+        top: -63px;
         left: 0px;
         z-index: -1;
+    }
+    .startup {
+        margin-left: 0;
     }    
-    
+    .orbital {
+        display: grid;
+        grid-template-columns: repeat(3, 109px);
+        grid-row-gap: 10px;
+        top: 195px;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+    }
     .portfolio a {
         text-decoration-line: none;
         color: white;
@@ -446,18 +463,6 @@ label {
         display: grid;
         justify-content: center;
     }
-
-    .orbital {
-        display: grid;
-        grid-template-columns: repeat(3, 109px);
-        padding: 150px 0 0 0;
-        grid-row-gap: 10px;
-        top: -59px;
-        width: 100%;
-        justify-content: center;
-        justify-items: center;
-    }
-
     .menuport {
         display: grid;
         text-align: center;
@@ -482,90 +487,23 @@ label {
     .seguranca {
         grid-column: 3/3;
     }
-
-
-    body {
-        display: flex;
-    }
-
-
-
-    .startup {
-        margin-top: 15px;
-        left: 0px;
-        position: fixed;
-        width: 100%;
-        justify-content: center;
-    }
-    .startup h1 {
-        font-style: italic;
-        color: #0073ec;
-        text-shadow: 0 0 2px white;
-        margin: -26px 0 -26px -18px;
-    }
-    .startup h2 {
-        margin-top: 10px;
-        position: fixed;
-        width: 100%;
-    }
-
-
-
     .iot h3, p {
         display: none;
     }
-
-
-
+    input.abas:checked + label + div {
+        height: 0;
+    }
     div#social {
-        display: flow-root;
-        top: 530px;
+        display: inline;
+        top: 625px;
         text-align: center;
         justify-content: center;
         position: fixed;
+        width: 100%;
     }
     #social .fa-envira {
         color: white;
         font-size: 25px;
         position: inherit;
     }
-
-
-    .abas-container {
-        display: grid;
-        padding: 120px 0 0 0;
-        top: 433px;
-        text-align: center;
-        left: 12px;
-    }
-    input.abas:checked + label {
-        background-image: linear-gradient(#000000, #0073ec);
-        color: #ffffff;
-        padding-bottom: 0;
-        width: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    input.abas + label {
-        line-height: 28px;
-        cursor: pointer;
-        transition: ease-in-out .3s;
-        width: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    label {
-        background-image: linear-gradient(#000000, #ffffff);
-        text-decoration-line: none;
-        font-weight: 500;
-        color: white;
-        height: 32px;
-    }
 }
-
-
-
-
-
