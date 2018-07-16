@@ -444,6 +444,7 @@ label {
     .startup {
         margin: -15px 0 0 0;
         width: inherit;
+        text-align: center;
     }    
     .orbital {
         display: grid;
