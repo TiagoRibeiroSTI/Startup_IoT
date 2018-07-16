@@ -421,8 +421,8 @@ label {
 
     body {
         flex-direction: column;
-        width: fit-content;
         align-items: center;
+        background-position-y: 46px;
     }
 
     .portfolio {
@@ -440,13 +440,13 @@ label {
         z-index: -1;
     }
     .startup {
-        margin-left: 0;
+        margin: -15px 0 0 0;
     }    
     .orbital {
         display: grid;
         grid-template-columns: repeat(3, 109px);
         grid-row-gap: 10px;
-        top: 195px;
+        top: 105px;
         width: 100%;
         justify-content: center;
         justify-items: center;
@@ -492,10 +492,12 @@ label {
     }
     input.abas:checked + label + div {
         height: 0;
+        display: grid;
+        justify-items: center;
     }
     div#social {
         display: inline;
-        top: 625px;
+        top: 600px;
         text-align: center;
         justify-content: center;
         position: fixed;
@@ -505,5 +507,41 @@ label {
         color: white;
         font-size: 25px;
         position: inherit;
+    }
+    .abas-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 418px 0 0 0;
+        margin-top: 0;
+        /* top: 433px; */
+        text-align: center;
+        /* left: 12px; */
+    }
+    input.abas:checked + label {
+        background-image: linear-gradient(#000000, #0073ec);
+        color: #ffffff;
+        padding-bottom: 0;
+        width: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    input.abas + label {
+        line-height: 28px;
+        cursor: pointer;
+        transition: ease-in-out .3s;
+        width: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 0 5px 5px;
+    }
+    label {
+        background-image: linear-gradient(#000000, #ffffff);
+        text-decoration-line: none;
+        font-weight: 500;
+        color: white;
+        height: 32px;
     }
 }
