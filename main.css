@@ -34,22 +34,24 @@ body {
 }
 
 /* Nome e Slogan */
+.startup {
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    width: max-content;
+}
 .startup h1 {
     font-style: italic;
     font-size: 72px;
     color: #0073ec;
     text-shadow: 0 0 2px white;
     margin: 0px;
-    position: absolute;
-    left: 58px;
-    top: 0px;
 }
 
 .startup h2 {
-    position: absolute;
-    top: 68px;
-    left: 83px;
+    text-align: center;
     color: white;
+    margin: 0;
 }
 
 .startup h1, h2 {
@@ -76,7 +78,7 @@ body {
 /* Menu Abas */
 .abas-container {
     text-align: right;
-    margin: 32px 144px 0 0;
+    margin: -100px 170px 0 0;
 }
 input.abas {
     display: none;
