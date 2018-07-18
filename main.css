@@ -78,7 +78,7 @@ body {
 /* Menu Abas */
 .abas-container {
     text-align: right;
-    margin: -100px 170px 0 0;
+    margin: -82px 170px 0 0;
 }
 input.abas {
     display: none;
@@ -87,7 +87,7 @@ input.abas + label + div {
     width: 100%;
     opacity: 0;
     position: fixed;
-    top: 75px;
+    top: 96px;
     right: 0px;
     transition: opacity ease-in-out .3s;
 }
