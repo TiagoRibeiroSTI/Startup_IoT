@@ -450,7 +450,7 @@ label {
         display: grid;
         grid-template-columns: repeat(3, 109px);
         grid-row-gap: 10px;
-        top: 105px;
+        top: 77px;
         width: 100%;
         justify-content: center;
         justify-items: center;
