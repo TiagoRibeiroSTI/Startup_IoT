@@ -418,15 +418,62 @@ label {
 }
 
 
-/* Rensponsive Portrait */
+/* Rensponsive Design */
 @media (max-width: 600px) {
 
     body {
         flex-direction: column;
         align-items: center;
-        background-position-y: 10px;
+        background-position-y: 50px;
     }
-
+    
+    .startup {
+        margin: -15px 0 0 0;
+        width: inherit;
+        text-align: center;
+    }  
+    
+    .abas-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 415px 0 0 0;
+        margin-top: 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    input.abas + label {
+        width: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    input.abas:checked + label {
+        padding-bottom: 0;
+    }
+    
+    input.abas:checked + label + div {
+        height: 0;
+        display: grid;
+        justify-items: center;
+    }
+    
+    .iot {
+        display: none;
+    }
+    
+    .orbital {
+        display: grid;
+        grid-template-columns: repeat(3, 109px);
+        grid-row-gap: 10px;
+        top: 75px;
+        width: 200px;
+        justify-content: center;
+        justify-items: center;
+    }
+    
     .portfolio {
         font-size: 32px;
         border-radius: 45px;
@@ -436,32 +483,12 @@ label {
         left: 0px;
         z-index: -1;
     }
-    .startup {
-        margin: -15px 0 0 0;
-        width: inherit;
-        text-align: center;
-    }    
-    .orbital {
-        display: grid;
-        grid-template-columns: repeat(3, 109px);
-        grid-row-gap: 10px;
-        top: 77px;
-        width: 40%;
-        justify-content: center;
-        justify-items: center;
-    }
+    
     .portfolio a {
-        text-decoration-line: none;
-        color: white;
-        width: 100%;
+        width: 90px;
         padding: 0;
-        display: grid;
     }
 
-    .portfolio span {
-        display: grid;
-        justify-content: center;
-    }
     .menuport {
         display: grid;
         text-align: center;
@@ -471,6 +498,7 @@ label {
         width: 100px;
         height: 100px;
     }
+    
     .menuport a {
         font-weight: bolder;
         text-decoration-line: none;
@@ -483,17 +511,11 @@ label {
         justify-content: center;
         padding: 0;
     }
+    
     .seguranca {
         grid-column: 3/3;
     }
-    .iot h3, p {
-        display: none;
-    }
-    input.abas:checked + label + div {
-        height: 0;
-        display: grid;
-        justify-items: center;
-    }
+        
     div#social {
         display: inline;
         top: 600px;
@@ -501,44 +523,10 @@ label {
         justify-content: center;
         width: 100%;
     }
+    
     #social .fa-envira {
         color: white;
         font-size: 25px;
         position: inherit;
-    }
-    .abas-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 415px 0 0 0;
-        margin-top: 0;
-        text-align: center;
-        width: 100%;
-    }
-    input.abas:checked + label {
-        background-image: linear-gradient(#000000, #0073ec);
-        color: #ffffff;
-        padding-bottom: 0;
-        width: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    input.abas + label {
-        line-height: 28px;
-        cursor: pointer;
-        transition: ease-in-out .3s;
-        width: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0 0 5px 5px;
-    }
-    label {
-        background-image: linear-gradient(#000000, #ffffff);
-        text-decoration-line: none;
-        font-weight: 500;
-        color: white;
-        height: 32px;
-    }
+    }    
 }
