@@ -432,10 +432,6 @@ label {
         font-weight: bolder;
         text-shadow: 0 0 20px black;
         border-radius: 45px;
-        height: 400px;
-        width: 100%;
-        display: flex;
-        position: absolute;
         background-image: radial-gradient(circle at center, #0072ec, 36%, #fff0);
         top: -63px;
         left: 0px;
@@ -451,8 +447,6 @@ label {
         grid-template-columns: repeat(3, 109px);
         grid-row-gap: 10px;
         top: 77px;
-        width: 100%;
-        justify-content: center;
         justify-items: center;
     }
     .portfolio a {
