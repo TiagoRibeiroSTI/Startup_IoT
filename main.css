@@ -554,7 +554,7 @@ label.fas:before {
         font-weight: unset;
     }
     
-    .contato a input {
+    .contato a input, textarea {
         width: 320px;
     }
     
