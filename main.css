@@ -437,7 +437,7 @@ label {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 415px 0 0 0;
+        padding: 365px 0 0 0;
         margin-top: 0;
         text-align: center;
         width: 100%;
@@ -468,20 +468,22 @@ label {
         display: grid;
         grid-template-columns: repeat(3, 109px);
         grid-row-gap: 10px;
-        top: 75px;
+        top: 35px;
         width: 200px;
         justify-content: center;
         justify-items: center;
     }
     
     .portfolio {
-        font-size: 32px;
+        font-size: 20px;
         border-radius: 45px;
         height: 200px;
         width: 100%;
         top: 63px;
         left: 0px;
         z-index: -1;
+        justify-content: center;
+        align-items: center;
     }
     
     .portfolio a {
@@ -518,7 +520,7 @@ label {
         
     div#social {
         display: inline;
-        top: 600px;
+        top: 535px;
         text-align: center;
         justify-content: center;
         width: 100%;
