@@ -435,7 +435,7 @@ label {
     .abas-container {
         display: flex;
         justify-content: center;
-        padding: 380px 0 0 0;
+        padding: 390px 0 0 0;
         margin: auto;
         width: 333px;
     }
@@ -523,9 +523,10 @@ label {
     div#social {
         display: block;
         text-align: center;
-        top: 510px;
+        top: 525px;
         width: inherit;
         right: auto;
+        height: fit-content;
     }
     
     #social .fa-envira {
