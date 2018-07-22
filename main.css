@@ -442,6 +442,10 @@ label {
         width: 100%;
     }
     
+    label a {
+    display: none;
+    }
+    
     input.abas + label {
         width: 55px;
         display: flex;
