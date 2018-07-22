@@ -448,7 +448,7 @@ label.fas:before {
     display: none;
     }
     
-    .fas:before {
+    label.fas:before {
         display: unset;
     }
     
