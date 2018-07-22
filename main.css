@@ -444,7 +444,7 @@ label {
     display: none;
     }
     
-    .fa, .fas {
+    .fas:before {
         display: unset;
     }
     
