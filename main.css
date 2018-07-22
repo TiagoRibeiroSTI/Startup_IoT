@@ -137,9 +137,11 @@ label.fas:before {
 
 /* Conteúdo da Aba Contato */
 main {  
-    padding: 30px;
-    width: 40%;
     font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
 }
 
 main form {
@@ -150,16 +152,17 @@ main form {
 }
 
 main form input[type=text], textarea {
-    width: 300px;
+    width: 450px;
     font-family: inherit;
-    margin: 1px;
+    margin: 5px;
 }
 
 main form input, textarea {
-    margin: 1px 0;
+    margin: 5px 0;
     padding: 5px;
     outline: none;
     border-radius: 5px;
+    font-size: inherit;
 }
 
 /* Conteúdo da Aba Suporte */
