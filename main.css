@@ -139,22 +139,27 @@ label.fas:before {
 main {  
     padding: 30px;
     width: 40%;
+    font-family: inherit;
 }
 
 main form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 35px;
 }
 
 main form input[type=text], textarea {
     width: 300px;
+    font-family: inherit;
+    margin: 1px;
 }
 
 main form input, textarea {
-    margin: 10px 0;
-    padding: 10px;
+    margin: 1px 0;
+    padding: 5px;
     outline: none;
+    border-radius: 5px;
 }
 
 /* Conteúdo da Aba Suporte */
