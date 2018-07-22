@@ -124,6 +124,10 @@ label {
     color: white;
 }
 
+label.fas:before {
+    display: none;
+}
+
 /* Conteúdo da Aba Contato */
 .contato {
     text-align: right;
