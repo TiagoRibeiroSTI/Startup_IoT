@@ -136,42 +136,25 @@ label.fas:before {
 }
 
 /* Conteúdo da Aba Contato */
-.contato {
-    text-align: right;
-    width: fit-content;
-    position: absolute;
-    top: 115px;
-    left: 375px;
-    display: grid;
+main {  
+    padding: 30px;
+    width: 40%;
 }
 
-.contato a {
-    color: white;
-    font-weight: bold;
-    font-size: 1.3em;
-    margin-top: 5px;
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.contato a input, textarea {
-    width: 430px;
-    font-size: inherit;
-    font-family: inherit;
-    border-radius: 5px;
-    text-indent: 5px;
+main form input[type=text], textarea {
+    width: 300px;
 }
 
-.contato textarea {
-    height: 235px;
-    margin-bottom: -125px;
-}
-
-.contato a #send {
-    color: black;
-    font-weight: bold;
-    display: inline;
-    font-size: 1em;
-    margin-top: 120px;
-    width: fit-content;
+main form input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
 }
 
 /* Conteúdo da Aba Suporte */
