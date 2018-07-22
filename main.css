@@ -458,12 +458,6 @@ label {
         padding-bottom: 0;
     }
     
-    input.abas:checked + label + div {
-        height: 0;
-        display: grid;
-        justify-items: center;
-    }
-    
     .iot {
         display: none;
     }
