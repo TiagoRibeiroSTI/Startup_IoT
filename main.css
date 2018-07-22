@@ -80,9 +80,11 @@ body {
     text-align: right;
     margin: -82px 170px 0 0;
 }
+
 input.abas {
     display: none;
 }
+
 input.abas + label + div {
     width: 100%;
     opacity: 0;
@@ -104,6 +106,8 @@ input.abas + label {
     transition: ease-in-out .3s;
     border-radius: 5px 5px 0 0;
     z-index: 99999;
+    font-family: inherit;
+    font-weight: 500;
 }
 
 input.abas:hover + label {
