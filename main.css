@@ -537,31 +537,27 @@ label.fas:before {
     }
     
     /* Desing-layout Contato */
-    .contato {
-        text-align: center;
-        top: 20px;
-        display: flex;
-        flex-direction: column;
-        width: 320px;
-        left: unset;
-        align-items: center;
+    main {  
+        padding: 30px;
+        width: 40%;
     }
-    
-    .contato a {
-        color: white;
-        margin-top: 5px;
-        font-size: unset;
-        font-weight: unset;
+
+    main form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    
-    .contato a input, textarea {
-        width: 320px;
+
+    main form input[type=text], textarea {
+      width: 300px;
     }
-    
-    .contato textarea {
-        height: 126px;
-        margin-bottom: -116px;
+
+    main form input, textarea {
+      margin: 10px 0;
+      padding: 10px;
+      outline: none;
     }
+
     
     
         
