@@ -549,6 +549,12 @@ label.fas:before {
     .contato a {
         color: white;
         margin-top: 5px;
+        font-size: unset;
+        font-weight: unset;
+    }
+    
+    .contato a input {
+        width: 320px;
     }
     
     .contato textarea {
