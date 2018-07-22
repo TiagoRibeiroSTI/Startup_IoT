@@ -539,11 +539,12 @@ label.fas:before {
     /* Desing-layout Contato */
     .contato {
         text-align: center;
-        position: absolute;
         top: 20px;
         display: flex;
         flex-direction: column;
-        width: min-content;
+        width: 320px;
+        left: unset;
+        align-items: center;
     }
     
     .contato a {
