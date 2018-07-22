@@ -444,6 +444,10 @@ label {
     display: none;
     }
     
+    .fa, .fas {
+        display: unset;
+    }
+    
     input.abas + label {
         width: 55px;
         display: flex;
