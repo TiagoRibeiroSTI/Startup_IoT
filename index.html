@@ -77,13 +77,16 @@
         <input type="radio" name="abas" class="abas" id="aba5">
         <label class="fas fa-phone" for="aba5"><a>CONTATO</a></label>
         <div>
-            <div class="contato">
-                <a>Nome <input></a>
-                <a>E-mail <input></a>
-                <a>Assunto <input></a>
-                <a>Mensagem <textarea id="mensagem"></textarea></a>
-                <a><input id="send" type="submit" value="ENVIAR"/></a>
-            </div>
+            <main>
+                <form action="">
+                  <input type="text" id="nome" placeholder="Nome">
+                  <input type="text" id="email" placeholder="Email">
+                  <input type="text" id="assunto" placeholder="Assunto">
+                  <textarea type="text" id="msg" placeholder="Mensagem"
+                              rows="3" cols="33" maxlength="200"></textarea>
+                  <input type="submit" value="ENVIAR">
+               </form>
+            </main>
         </div>
     </section>
 </body>
