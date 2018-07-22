@@ -108,7 +108,7 @@ input.abas + label {
     z-index: 99999;
 }
 
-input.fas a {
+.fas a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
