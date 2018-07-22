@@ -529,24 +529,25 @@ main form input, textarea {
     
     /* Desing-layout Contato */
     main {  
-        padding: 30px;
-        width: 40%;
+        margin: 20px auto;
+        height: fit-content;
     }
 
     main form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     main form input[type=text], textarea {
-      width: 300px;
+        width: 300px;
+        margin: 1px;
     }
 
     main form input, textarea {
-      margin: 10px 0;
-      padding: 10px;
-      outline: none;
+        margin: 1px 0;
+        padding: 10px;
+        outline: none;
     }
 
     
