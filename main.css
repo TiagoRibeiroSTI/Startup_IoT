@@ -427,15 +427,15 @@ label {
     }
     
     .startup {
-        margin: -15px 0 0 0;
-        width: unset;
-        text-align: center;
+        align-items: center;
+        margin: -13px auto;
+        width: max-content;
     }  
     
     .abas-container {
         display: flex;
         justify-content: center;
-        padding: 365px 0 0 0;
+        padding: 375px 0 0 0;
         margin: auto;
         width: 333px;
     }
