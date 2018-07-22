@@ -476,7 +476,8 @@ label.fas:before {
         padding-bottom: 0;
         background-image: linear-gradient(#000000, #0073ec);
     }
-       
+    
+    /* Desing-layout Home */       
     .iot {
         display: none;
     }
@@ -534,6 +535,28 @@ label.fas:before {
     .seguranca {
         grid-column: 3/3;
     }
+    
+    /* Desing-layout Contato */
+    .contato {
+        text-align: center;
+        position: absolute;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: min-content;
+    }
+    
+    .contato a {
+        color: white;
+        margin-top: 5px;
+    }
+    
+    .contato textarea {
+        height: 126px;
+        margin-bottom: -116px;
+    }
+    
+    
         
     div#social {
         display: block;
