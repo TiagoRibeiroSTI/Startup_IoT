@@ -529,7 +529,7 @@ main form input, textarea {
     
     /* Desing-layout Contato */
     main {  
-        margin: 20px auto;
+        margin: -8px auto;
         height: fit-content;
     }
 
@@ -546,7 +546,6 @@ main form input, textarea {
 
     main form input, textarea {
         margin: 1px 0;
-        padding: 10px;
         outline: none;
     }
 
