@@ -135,6 +135,42 @@ label.fas:before {
     display: none;
 }
 
+/* Conteúdo da Aba Orçamento */
+.orcamento {
+    display: grid;
+    justify-items: center;
+}
+
+.orcamento a {
+    color: white;
+    width: 400px;
+    text-align: center;
+    top: 175px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Conteúdo da Aba Suporte */
+.suporte  {
+    display: grid;
+    position: absolute;
+    top: 214px;
+    left: 556px;
+}
+
+.suporte a {
+    color: white;
+    top: 243px;
+    text-align: center;
+    position: initial;
+    font-weight: bold;
+}
+
+.suporte #a1 {
+    font-size: 2.5em;
+}
+
 /* Conteúdo da Aba Contato */
 main {  
     font-family: inherit;
@@ -163,26 +199,6 @@ main form input, textarea {
     outline: none;
     border-radius: 5px;
     font-size: inherit;
-}
-
-/* Conteúdo da Aba Suporte */
-.suporte  {
-    display: grid;
-    position: absolute;
-    top: 214px;
-    left: 556px;
-}
-
-.suporte a {
-    color: white;
-    top: 243px;
-    text-align: center;
-    position: initial;
-    font-weight: bold;
-}
-
-.suporte #a1 {
-    font-size: 2.5em;
 }
 
 /* Social Media */
