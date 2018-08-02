@@ -125,7 +125,6 @@ input.abas:checked + label {
 }
 
 label {
-    background-image: linear-gradient(#000000, #ffffff);
     text-decoration-line: none;
     font-weight: 500;
     color: white;
