@@ -1,0 +1,584 @@
+/* Load Page Body */
+@-webkit-keyframes loadpage {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+@-moz-keyframes loadpage {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+@-o-keyframes loadpage {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+@keyframes loadpage {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }  
+
+.loadpage {
+    -webkit-animation: loadpage .5s ease-in-out;
+    -moz-animation: loadpage .5s ease-in-out;
+    -o-animation: loadpage .5s ease-in-out;
+    animation: loadpage .5s ease-in-out;
+}
+
+/* Background body */
+body {        
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(images/technology.png);
+    background-color: #000000;
+    background-position-y: 82px;
+    background-repeat: no-repeat;
+    background-position-x: -21px;
+}
+
+/* Nome e Slogan */
+.startup {
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    width: max-content;
+}
+.startup h1 {
+    font-style: italic;
+    font-size: 72px;
+    color: #0073ec;
+    text-shadow: 0 0 2px white;
+    margin: 0px;
+}
+
+.startup h2 {
+    text-align: center;
+    color: white;
+    margin: -12px 0 0 0;
+}
+
+.startup h1, h2 {
+    z-index: 999999999;
+}
+
+/* O que é IoT */
+.iot h3, p {
+    top: 55px;
+    left: 48px;
+    color: white;
+    width: 257px;
+    text-align: right;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.iot p {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* Menu Abas */
+.abas-container {
+    text-align: right;
+    margin: -82px 170px 0 0;
+}
+
+input.abas {
+    display: none;
+}
+
+input.abas + label + div {
+    width: 100%;
+    opacity: 0;
+    position: fixed;
+    top: 96px;
+    right: 0px;
+    transition: opacity ease-in-out .3s;
+}
+input.abas:checked + label + div {
+    opacity: 1;
+    z-index: 1000;
+    height: 100%;
+}
+
+input.abas + label {
+    line-height: 28px;
+    padding: 0 26px;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    border-radius: 5px 5px 0 0;
+    z-index: 99999;
+}
+
+.fas a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+input.abas:hover + label {
+    background-image: linear-gradient(#0073ec, #000);
+    color: #ffffff;
+}
+
+input.abas:checked + label {
+    background-image: linear-gradient(#0073ec, #000);
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+label {
+    background-image: linear-gradient(#000000, #ffffff);
+    text-decoration-line: none;
+    font-weight: 500;
+    color: white;
+}
+
+label.fas:before {
+    display: none;
+}
+
+/* Conteúdo da Aba Orçamento */
+.orcamento {
+    display: grid;
+    justify-items: center;
+}
+
+.orcamento a {
+    color: white;
+    width: 400px;
+    text-align: center;
+    top: 175px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Conteúdo da Aba Suporte */
+.suporte  {
+    display: grid;
+    position: absolute;
+    top: 214px;
+    left: 556px;
+}
+
+.suporte a {
+    color: white;
+    top: 243px;
+    text-align: center;
+    position: initial;
+    font-weight: bold;
+}
+
+.suporte #a1 {
+    font-size: 2.5em;
+}
+
+/* Conteúdo da Aba Contato */
+main {  
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 540px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+main form input[type=text], textarea {
+    width: 450px;
+    font-family: inherit;
+    margin: 5px;
+}
+
+main form input, textarea {
+    margin: 5px 0;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-size: inherit;
+}
+
+/* Social Media */
+#social {
+    font-size: 25px;    
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+    display: grid;
+    z-index: 10000;
+}
+
+#social .fa-envira {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 635px;
+}
+#social .fa-envira:hover {
+    color: rgb(8, 241, 8);
+}
+
+#social .fa-whatsapp-square {
+    color: white;
+}
+#social .fa-whatsapp-square:hover {
+    color: rgb(0, 207, 0);
+    background-color: white;
+    border-radius: 4px;
+    line-height: 20px;
+    margin-left: -1px;
+}
+
+#social .fa-map-marker-alt {
+    color: white;
+}
+#social .fa-map-marker-alt:hover {
+    color: tomato;
+    background-color: white;
+    height: 15px;
+    border-radius: 23px;
+    line-height: 23px;
+    margin-left: -1px;
+}
+
+#social .fa-facebook-square {
+    color: white;
+}
+#social .fa-facebook-square:hover {
+    color: #2d00aa;
+    background-color: white;
+    height: 19px;
+    border-radius: 4px;
+    line-height: 20px;
+    margin-left: -1px;
+}
+  
+#social .fa-twitter-square {
+    color: white;
+}
+#social .fa-twitter-square:hover {
+    color: #1e92ff;
+    background-color: white;
+    height: 19px;
+    border-radius: 4px;
+    line-height: 20px;
+    margin-left: -1px;
+}
+  
+#social .fa-linkedin {
+    color: white;
+}
+#social .fa-linkedin:hover {
+    color: #0058b6;
+    background-color: white;
+    height: 19px;
+    border-radius: 4px;
+    line-height: 20px;
+    margin-left: -1px;
+}
+
+#social .fa-youtube-square {
+    color: white;
+}
+#social .fa-youtube-square:hover {
+    color: rgb(252, 0, 0);
+    background-color: white;
+    height: 19px;
+    border-radius: 4px;
+    line-height: 20px;
+    margin-left: -1px;
+}
+
+#social .fa-instagram {
+    color: white;
+}
+#social .fa-instagram:hover {
+    color: brown;
+    background-color: white;
+    height: 19px;
+    border-radius: 5px;
+    line-height: 20px;
+    margin-left: -1px;
+}
+
+/* Menu Orbital do Portfólio IoT */
+.orbital {
+    position: absolute;
+    top: -63px;
+}
+
+.wearable {
+    top: 83px;
+    left: 614.5px;
+}
+.wearable a {    
+    background-image: url(images/wear.png);
+    background-position-x: -11px;
+    background-position-y: -4px;
+}
+
+.residencial {
+    top: 134px;
+    left: 482px;
+}
+.residencial a {
+    background-image: url(images/house.png);
+    background-size: 208px;
+    background-position: -5px;
+}
+
+.hospitalar {
+    top: 266px;
+    left: 429px;
+} 
+.hospitalar a {
+    background-image: url(images/hospital.png);
+    background-position: -10px;
+}
+
+.energia {
+    top: 397px;
+    left: 483px;
+}
+.energia a {
+    background-image: url(images/energia.png);
+    background-size: 272px;
+    background-position: -21px;
+}
+
+.seguranca {
+    top: 448px;
+    left: 614.5px;
+} 
+.seguranca a {
+    background-image: url(images/seguranca.png);
+    background-position-x: -16px;
+    background-position-y: 5px;
+}
+
+.urbano {
+    top: 396px;
+    left: 746px;
+}
+.urbano a {
+    background-image: url(images/urbano.png);
+    background-size: 214px;
+}
+
+.industria {
+    top: 266px;
+    left: 798px;
+}
+.industria a {
+    background-image: url(images/industria.png);
+}
+
+.pet {
+    top: 136px;
+    left: 746px;
+}
+.pet a {
+    background-image: url(images/pet.png);
+    background-position: -32px;
+    background-size: 196px;
+}
+
+.portfolio {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    text-shadow: 0 0 20px black;
+    border-radius: 50%;
+    height: 330px;
+    width: 330px;
+    display: flex;
+    position: absolute;
+    background-image: radial-gradient(circle at center, #0072ec, 36%, #fff0);
+    top: 161px;
+    left: 520px;
+}
+
+.portfolio a { 
+    text-decoration-line: none;
+    color: white;
+    padding: 128px 0 0 97px;
+    width: 136px;
+}
+
+.menuport {
+    display: grid;
+    width: 137px;
+    height: 137px;
+    text-align: center;
+    border-radius: 50%;   
+    box-shadow: 0px 0px 10px 7px white;
+    text-shadow: 0 0 20px black;
+    position: absolute;
+}
+
+.menuport a {
+    font-weight: bolder;
+    text-decoration-line: none;
+    padding: 50px 10px 50px 10px;
+    border-radius: 50%;
+    background-size: cover;
+    color: white;
+    background-blend-mode: darken;
+}
+
+.menuport:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+
+/* Rensponsive Design */
+@media (max-width: 600px) {
+
+    body {
+        background-position-y: -12px;
+        background-position-x: -507px;
+    }
+    
+    .startup {
+        align-items: center;
+        margin: -13px auto;
+        width: max-content;
+    }  
+    
+    .abas-container {
+        display: flex;
+        justify-content: center;
+        padding: 390px 0 0 0;
+        margin: auto;
+        width: 333px;
+    }
+    
+    label a {
+    display: none;
+    }
+    
+    label.fas:before {
+        display: unset;
+    }
+    
+    input.abas + label {
+        width: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 0 5px 5px;
+    }
+    
+    input.abas + label + div {    
+    display: flex;
+    justify-content: center;
+    }
+    
+    input.abas:checked + label {
+        padding-bottom: 0;
+        background-image: linear-gradient(#000000, #0073ec);
+    }
+    
+    /* Desing-layout Home */       
+    .iot {
+        display: none;
+    }
+    
+    .orbital {
+        display: grid;
+        grid-template-columns: repeat(3, 109px);
+        grid-row-gap: 10px;
+        top: 28px;
+        width: 200px;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .portfolio {
+        font-size: 20px;
+        border-radius: 45px;
+        height: 200px;
+        width: 100%;
+        top: 63px;
+        left: 0px;
+        z-index: -1;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .portfolio a {
+        width: 90px;
+        padding: 0;
+    }
+
+    .menuport {
+        display: grid;
+        text-align: center;
+        box-shadow: 0px 0px 10px 7px white;
+        text-shadow: 0 0 20px black;
+        position: initial;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .menuport a {
+        font-weight: bolder;
+        text-decoration-line: none;
+        border-radius: 50%;
+        background-size: cover;
+        color: white;
+        background-blend-mode: darken;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .seguranca {
+        grid-column: 3/3;
+    }
+    
+    /* Desing-layout Contato */
+    main {  
+        margin: -8px auto;
+        height: fit-content;
+    }
+
+    main form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main form input[type=text], textarea {
+        width: 300px;
+        margin: 1px;
+    }
+
+    main form input, textarea {
+        margin: 1px 0;
+        outline: none;
+    }
+
+    
+    
+        
+    div#social {
+        display: block;
+        text-align: center;
+        top: 525px;
+        width: inherit;
+        right: auto;
+        height: fit-content;
+    }
+    
+    #social .fa-envira {
+        font-size: 25px;
+        position: inherit;
+    }    
+}
