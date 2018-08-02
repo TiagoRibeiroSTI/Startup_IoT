@@ -58,23 +58,6 @@ body {
     z-index: 999999999;
 }
 
-/* O que é IoT */
-.iot h3, p {
-    top: 55px;
-    left: 48px;
-    color: white;
-    width: 257px;
-    text-align: right;
-    position: relative;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.iot p {
-    font-weight: 500;
-    font-size: 24px;
-}
-
 /* Menu Abas */
 .abas-container {
     text-align: right;
@@ -104,7 +87,7 @@ input.abas + label {
     padding: 0 26px;
     cursor: pointer;
     transition: ease-in-out .3s;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
     z-index: 99999;
 }
 
@@ -114,14 +97,12 @@ input.abas + label {
 }
 
 input.abas:hover + label {
-    background-image: linear-gradient(#0073ec, #000);
-    color: #ffffff;
+    color: #0073ec;
 }
 
 input.abas:checked + label {
-    background-image: linear-gradient(#0073ec, #000);
+    background-color: #0073ec;
     color: #ffffff;
-    padding-bottom: 20px;
 }
 
 label {
