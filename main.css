@@ -536,6 +536,7 @@ main form input, textarea {
         flex-direction: column;
         height: 380px;
         justify-content: center;
+        position: unset;
     }
     
     /* Design Conteúdo Contato */
