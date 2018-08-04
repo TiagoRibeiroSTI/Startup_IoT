@@ -464,7 +464,7 @@ main form input, textarea {
         background-image: linear-gradient(#000000, #0073ec);
     }
     
-    /* Desing-layout Home */       
+    /* Design Conteúdo Home */       
     .iot {
         display: none;
     }
@@ -522,8 +522,23 @@ main form input, textarea {
     .seguranca {
         grid-column: 3/3;
     }
+
+    /* Design Conteúdo Orçamento */
+    .orcamento a {
+        width: 80%;
+        font-size: 1.5em;
+        top: 120px;
+    }
+
+    /* Design Conteúdo Suporte */
+    .suporte {
+        display: flex;
+        flex-direction: column;
+        height: 380px;
+        justify-content: center;
+    }
     
-    /* Desing-layout Contato */
+    /* Design Conteúdo Contato */
     main {  
         margin: -8px auto;
         height: fit-content;
@@ -545,9 +560,7 @@ main form input, textarea {
         outline: none;
     }
 
-    
-    
-        
+    /* Social */       
     div#social {
         display: block;
         text-align: center;
