@@ -118,6 +118,7 @@ label.fas:before {
 
 /* Conteúdo da Aba Produtos */
 .produtos {
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
