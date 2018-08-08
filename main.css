@@ -1,4 +1,4 @@
-/* Load Page Body */
+/* Carregamento da Página */
 @-webkit-keyframes loadpage {
     0% { opacity: 0; }
     100% { opacity: 1; } 
@@ -115,8 +115,138 @@ label.fas:before {
     display: none;
 }
 
+/* Conteúdo da Aba HOME */
+.orbital {
+    position: absolute;
+    top: -60px;
+}
 
-/* Conteúdo da Aba Produtos */
+.wearable {
+    top: 83px;
+    left: 614.5px;
+}
+.wearable a {    
+    background-image: url(images/wear.png);
+    background-position-x: -11px;
+    background-position-y: -4px;
+}
+
+.residencial {
+    top: 134px;
+    left: 482px;
+}
+.residencial a {
+    background-image: url(images/house.png);
+    background-size: 208px;
+    background-position: -5px;
+}
+
+.hospitalar {
+    top: 266px;
+    left: 429px;
+} 
+.hospitalar a {
+    background-image: url(images/hospital.png);
+    background-position: -10px;
+}
+
+.energia {
+    top: 397px;
+    left: 483px;
+}
+.energia a {
+    background-image: url(images/energia.png);
+    background-size: 272px;
+    background-position: -21px;
+}
+
+.seguranca {
+    top: 448px;
+    left: 614.5px;
+} 
+.seguranca a {
+    background-image: url(images/seguranca.png);
+    background-position-x: -16px;
+    background-position-y: 5px;
+}
+
+.urbano {
+    top: 396px;
+    left: 746px;
+}
+.urbano a {
+    background-image: url(images/urbano.png);
+    background-size: 214px;
+}
+
+.industria {
+    top: 266px;
+    left: 798px;
+}
+.industria a {
+    background-image: url(images/industria.png);
+}
+
+.pet {
+    top: 136px;
+    left: 746px;
+}
+.pet a {
+    background-image: url(images/pet.png);
+    background-position: -32px;
+    background-size: 196px;
+}
+
+.portfolio {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    text-shadow: 0 0 20px black;
+    border-radius: 50%;
+    height: 330px;
+    width: 330px;
+    display: flex;
+    position: absolute;
+    background-image: radial-gradient(circle at center, #0072ec, 36%, #fff0);
+    top: 161px;
+    left: 520px;
+}
+
+.portfolio a { 
+    text-decoration-line: none;
+    color: white;
+    padding: 128px 0 0 97px;
+    width: 136px;
+}
+
+.menuport {
+    display: grid;
+    width: 137px;
+    height: 137px;
+    text-align: center;
+    border-radius: 50%;   
+    box-shadow: 0px 0px 10px 7px white;
+    text-shadow: 0 0 20px black;
+    position: absolute;
+}
+
+.menuport a {
+    font-weight: bolder;
+    text-decoration-line: none;
+    padding: 50px 10px 50px 10px;
+    border-radius: 50%;
+    background-size: cover;
+    color: white;
+    background-blend-mode: darken;
+}
+
+.menuport:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+/* Conteúdo da Aba PRODUTOS */
 .produtos {
     display: flex;
     justify-content: center;
@@ -133,7 +263,7 @@ label.fas:before {
     padding-left: unset;
 }
 
-/* Conteúdo da Aba Orçamento */
+/* Conteúdo da Aba ORÇAMENTO */
 .orcamento {
     display: flex;
     align-items: center;
@@ -147,7 +277,7 @@ label.fas:before {
     font-size: 2rem;
 }
 
-/* Conteúdo da Aba Suporte */
+/* Conteúdo da Aba SUPORTE */
 .suporte  {
     display: grid;
     position: absolute;
@@ -166,7 +296,7 @@ label.fas:before {
     font-size: 2.5em;
 }
 
-/* Conteúdo da Aba Contato */
+/* Conteúdo da Aba CONTATO */
 main {  
     font-family: inherit;
     display: flex;
@@ -298,136 +428,7 @@ main form input, textarea {
     margin-left: -1px;
 }
 
-/* Menu Orbital do Portfólio IoT */
-.orbital {
-    position: absolute;
-    top: -60px;
-}
-
-.wearable {
-    top: 83px;
-    left: 614.5px;
-}
-.wearable a {    
-    background-image: url(images/wear.png);
-    background-position-x: -11px;
-    background-position-y: -4px;
-}
-
-.residencial {
-    top: 134px;
-    left: 482px;
-}
-.residencial a {
-    background-image: url(images/house.png);
-    background-size: 208px;
-    background-position: -5px;
-}
-
-.hospitalar {
-    top: 266px;
-    left: 429px;
-} 
-.hospitalar a {
-    background-image: url(images/hospital.png);
-    background-position: -10px;
-}
-
-.energia {
-    top: 397px;
-    left: 483px;
-}
-.energia a {
-    background-image: url(images/energia.png);
-    background-size: 272px;
-    background-position: -21px;
-}
-
-.seguranca {
-    top: 448px;
-    left: 614.5px;
-} 
-.seguranca a {
-    background-image: url(images/seguranca.png);
-    background-position-x: -16px;
-    background-position-y: 5px;
-}
-
-.urbano {
-    top: 396px;
-    left: 746px;
-}
-.urbano a {
-    background-image: url(images/urbano.png);
-    background-size: 214px;
-}
-
-.industria {
-    top: 266px;
-    left: 798px;
-}
-.industria a {
-    background-image: url(images/industria.png);
-}
-
-.pet {
-    top: 136px;
-    left: 746px;
-}
-.pet a {
-    background-image: url(images/pet.png);
-    background-position: -32px;
-    background-size: 196px;
-}
-
-.portfolio {
-    text-align: center;
-    font-size: 32px;
-    font-weight: bolder;
-    text-shadow: 0 0 20px black;
-    border-radius: 50%;
-    height: 330px;
-    width: 330px;
-    display: flex;
-    position: absolute;
-    background-image: radial-gradient(circle at center, #0072ec, 36%, #fff0);
-    top: 161px;
-    left: 520px;
-}
-
-.portfolio a { 
-    text-decoration-line: none;
-    color: white;
-    padding: 128px 0 0 97px;
-    width: 136px;
-}
-
-.menuport {
-    display: grid;
-    width: 137px;
-    height: 137px;
-    text-align: center;
-    border-radius: 50%;   
-    box-shadow: 0px 0px 10px 7px white;
-    text-shadow: 0 0 20px black;
-    position: absolute;
-}
-
-.menuport a {
-    font-weight: bolder;
-    text-decoration-line: none;
-    padding: 50px 10px 50px 10px;
-    border-radius: 50%;
-    background-size: cover;
-    color: white;
-    background-blend-mode: darken;
-}
-
-.menuport:hover {
-    transform: scale(1.2);
-    transition: all 0.5s ease;
-    z-index: 1;
-}
+/* ---------------------------------------------------------- */
 
 /* Rensponsive Design */
 @media (max-width: 600px) {
@@ -470,7 +471,7 @@ main form input, textarea {
         margin-top: -40px;
     }
     
-    /* Design Conteúdo Home */       
+    /* Responsive HOME */       
     .iot {
         display: none;
     }
@@ -529,14 +530,29 @@ main form input, textarea {
         grid-column: 3/3;
     }
 
-    /* Design Conteúdo Orçamento */
+    /* Responsive SOCIAL */       
+    div#social {
+        display: block;
+        text-align: center;
+        top: 525px;
+        width: inherit;
+        right: auto;
+        height: fit-content;
+    }
+    
+    #social .fa-envira {
+        font-size: 25px;
+        position: inherit;
+    }    
+
+    /* Responsive ORÇAMENTO */
     .orcamento a {
         width: 80%;
         font-size: 1.5em;
         top: 120px;
     }
 
-    /* Design Conteúdo Suporte */
+    /* Responsive SUPORTE */
     .suporte {
         display: flex;
         flex-direction: column;
@@ -545,7 +561,7 @@ main form input, textarea {
         position: unset;
     }
     
-    /* Design Conteúdo Contato */
+    /* Responsive CONTATO */
     main {  
         margin-top: 65px;
         display: unset;
@@ -567,19 +583,4 @@ main form input, textarea {
         margin: 1px 0;
         outline: none;
     }
-
-    /* Social */       
-    div#social {
-        display: block;
-        text-align: center;
-        top: 525px;
-        width: inherit;
-        right: auto;
-        height: fit-content;
-    }
-    
-    #social .fa-envira {
-        font-size: 25px;
-        position: inherit;
-    }    
 }
