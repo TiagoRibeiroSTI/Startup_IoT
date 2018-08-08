@@ -117,17 +117,14 @@ label.fas:before {
 
 /* Conteúdo da Aba Produtos */
 .produtos {
-    display: grid;
+    display: flex;
     justify-items: center;
 }
 
-.produtos ul {
+.produtos ul, .produtos a  {
     color: white;
-    width: 400px;
     text-align: center;
-    top: 175px;
-    position: absolute;
-    font-weight: bold;
+    list-style: none;
     font-size: 2rem;
 }
 
@@ -141,9 +138,6 @@ label.fas:before {
     color: white;
     width: 400px;
     text-align: center;
-    top: 175px;
-    position: absolute;
-    font-weight: bold;
     font-size: 2rem;
 }
 
@@ -160,7 +154,6 @@ label.fas:before {
     top: 243px;
     text-align: center;
     position: initial;
-    font-weight: bold;
 }
 
 .suporte #a1 {
