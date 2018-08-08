@@ -526,9 +526,9 @@ main form input, textarea {
     
     /* Design Conteúdo Contato */
     main {  
-        margin: -8px auto;
+        margin: 65px;
         display: unset;
-        height: fit-content;
+        height: unset;
     }
 
     main form {
