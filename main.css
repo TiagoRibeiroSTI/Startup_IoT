@@ -114,6 +114,23 @@ label.fas:before {
     display: none;
 }
 
+
+/* Conteúdo da Aba Produtos */
+.produtos {
+    display: grid;
+    justify-items: center;
+}
+
+.produtos a {
+    color: white;
+    width: 400px;
+    text-align: center;
+    top: 175px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 /* Conteúdo da Aba Orçamento */
 .orcamento {
     display: grid;
