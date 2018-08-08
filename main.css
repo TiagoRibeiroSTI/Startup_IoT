@@ -70,6 +70,7 @@ input.abas {
 
 input.abas + label + div {
     width: 100%;
+    height: 75%;
     opacity: 0;
     position: absolute;
     top: 96px;
@@ -118,7 +119,10 @@ label.fas:before {
 /* Conteúdo da Aba Produtos */
 .produtos {
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: unset;
 }
 
 .produtos ul, .produtos a  {
@@ -130,8 +134,9 @@ label.fas:before {
 
 /* Conteúdo da Aba Orçamento */
 .orcamento {
-    display: grid;
-    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .orcamento a {
