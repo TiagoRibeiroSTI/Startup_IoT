@@ -118,8 +118,6 @@ label.fas:before {
 
 /* Conteúdo da Aba Produtos */
 .produtos {
-    display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -467,6 +465,7 @@ main form input, textarea {
         display: flex;
         justify-content: center;
         right: unset;
+        margin-top: -40px;
     }
     
     /* Design Conteúdo Home */       
