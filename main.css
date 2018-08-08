@@ -122,7 +122,6 @@ label.fas:before {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-left: unset;
 }
 
 .produtos ul, .produtos a  {
@@ -131,6 +130,7 @@ label.fas:before {
     list-style: none;
     font-size: 1.5rem;
     width: 335px;
+    padding-left: unset;
 }
 
 /* Conteúdo da Aba Orçamento */
