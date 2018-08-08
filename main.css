@@ -477,7 +477,7 @@ main form input, textarea {
         display: grid;
         grid-template-columns: repeat(3, 109px);
         grid-row-gap: 10px;
-        top: 28px;
+        top: 76px;
         width: 200px;
         justify-content: center;
         justify-items: center;
