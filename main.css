@@ -121,7 +121,7 @@ label.fas:before {
     justify-items: center;
 }
 
-.produtos li, a {
+.produtos ul li a {
     color: white;
     width: 400px;
     text-align: center;
