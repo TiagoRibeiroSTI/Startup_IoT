@@ -153,6 +153,10 @@ label.fas:before {
 /* Conteúdo da Aba Contato */
 main {  
     font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
 }
 
 main form {
@@ -524,6 +528,8 @@ main form input, textarea {
     /* Design Conteúdo Contato */
     main {  
         margin: -8px auto;
+        display: unset;
+        height: fit-content;
     }
 
     main form {
