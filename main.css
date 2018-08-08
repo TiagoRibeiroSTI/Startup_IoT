@@ -71,7 +71,7 @@ input.abas {
 input.abas + label + div {
     width: 100%;
     opacity: 0;
-    position: fixed;
+    position: absolute;
     top: 96px;
     right: 0px;
     transition: opacity ease-in-out .3s;
@@ -79,7 +79,6 @@ input.abas + label + div {
 input.abas:checked + label + div {
     opacity: 1;
     z-index: 1000;
-    height: 100%;
 }
 
 input.abas + label {
@@ -154,10 +153,6 @@ label.fas:before {
 /* Conteúdo da Aba Contato */
 main {  
     font-family: inherit;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 540px;
 }
 
 main form {
@@ -446,8 +441,9 @@ main form input, textarea {
     }
     
     input.abas + label + div {    
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
+        right: unset;
     }
     
     /* Design Conteúdo Home */       
@@ -528,7 +524,6 @@ main form input, textarea {
     /* Design Conteúdo Contato */
     main {  
         margin: -8px auto;
-        height: fit-content;
     }
 
     main form {
