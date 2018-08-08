@@ -129,7 +129,8 @@ label.fas:before {
     color: white;
     text-align: center;
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    width: 335px;
 }
 
 /* Conteúdo da Aba Orçamento */
