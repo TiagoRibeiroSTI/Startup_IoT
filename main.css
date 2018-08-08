@@ -443,6 +443,10 @@ main form input, textarea {
         display: unset;
     }
     
+    input.abas + label {
+        transition: unset;
+    }
+
     input.abas + label + div {    
         display: flex;
         justify-content: center;
